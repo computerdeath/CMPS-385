@@ -1,0 +1,47 @@
+Display nodes right to left
+
+NODE*p = end;
+		while (p->back != NULL)
+		{
+			cout << p->info << "->";
+			p = p->back;
+		}
+		cout << p->info << endl;
+		
+Delete the node whose info is 15
+
+NODE*p = top;
+		NODE*q = p;
+		while (p->next != NULL)
+		{
+			q = p;
+			p = p->next;
+			if (p->info == 15)
+			{
+				q->next = p->next;
+				p->back = q;
+			}
+		}
+Insert 60 before the node with info=30
+
+NODE*p = top;
+		NODE*q;
+		NODE*temp = new(NODE);
+		temp->info = 60;
+		while (p->next != NULL)
+		{
+			q = p;
+			p = p->next;
+			if (p->info == 30)
+			{
+				temp->next = p;
+				temp->back = q;
+				p->back = temp;
+				q->next = temp;
+			}
+		}
+	Delete the last node
+	
+	NODE*p = end;
+		p = p->back;
+		p->next = NULL;

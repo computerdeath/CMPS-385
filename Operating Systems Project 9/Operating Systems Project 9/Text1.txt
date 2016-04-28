@@ -1,0 +1,6 @@
+10	Nixon,Kathy	100.1
+30	Clinton,Bill	300.3
+40	Bush,Barbra	400.4
+50	Carter,Jimmy	400.5
+60	Bush,George	600.6
+90	Obama,Barack	900.9

@@ -1,0 +1,7 @@
+Emmanuel 20 20.20
+Vincent 40 40.40
+Keith 60 60.60
+Beatrize 10 10.10
+David 80 80.80
+Bryan 30 30.30
+James 70 70.70
